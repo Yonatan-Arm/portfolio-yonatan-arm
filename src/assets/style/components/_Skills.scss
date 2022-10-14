@@ -1,0 +1,70 @@
+.skills-section {
+    min-height: 90vh;
+    background: linear-gradient(to bottom, #57059e, #4a00e0);
+    left: 0;
+    position: absolute;
+    width: 100%;
+    padding: 1.5rem;
+
+    h2 {
+        font-size: 2rem;
+        color: $clr10;
+        font-weight: 750;
+        text-align: center;
+        color: #fff;
+
+        @include for-small-layout {
+            flex-wrap: wrap;
+        }
+
+        span {
+            color: $clr9;
+            margin-left: 4px;
+        }
+
+        img {
+            width: rem(45px);
+            margin-right: 4px;
+        }
+    }
+
+    .tech-section {
+        margin-top: rem(50px);
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 30px;
+        width: 80%;
+        transform: translateX(10%);
+        background: rgba(0, 0, 22, 0.4);
+        border-radius: 1rem;
+
+    }
+
+    .tech-preview {
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 1rem;
+        box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
+        background: rgba(0, 0, 22, 0.9);
+        gap: 10px;
+
+        img {
+            width: rem(30px);
+            margin-top: 1rem;
+        }
+
+        span {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin-left: 0.5rem;
+            color: #fff;
+        }
+    }
+
+    .tech-preview:hover {
+        box-shadow: 0 8px 10px rgb(0 2 68 / 80%);
+        background-color: rgba(0, 0, 0, 0.9);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,127 @@
+.about-section {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    min-height: 100vh;
+    padding: 2rem 9%;
+    @include for-tablet-layout {
+        padding: unset;
+    }
+
+    h2 {
+        font-size: 2rem;
+        color: rgb(32, 32, 32);
+        font-weight: 800;
+        text-align: center;
+        img{
+            width: 2rem;
+            margin-right: 5px;
+        }
+
+        span {
+            color: rgb(115, 3, 167);
+        }
+    }
+
+    .about-content {
+        gap: 4rem;
+        padding: 2rem;
+
+        @include for-normal-layout {
+            flex-wrap: wrap;
+        }
+
+        .image {
+            text-align: center;
+            flex: 1 1 35rem;
+            @include for-mobile-layout {
+                width: 80%;
+                flex: none;
+            }
+           
+
+            img {
+                margin: 2rem;
+                width: 20rem;
+                height: auto;
+                border-radius: 5%;
+                box-shadow: 0 5px 10px rgb(0 0 0 / 60%);
+                mix-blend-mode: luminosity;
+                transition: 0.3s;
+                cursor: pointer;
+            }
+            img:hover{
+            }
+        }
+
+        .content {
+            flex: 1 1 45rem;
+            padding: 3rem;
+            font-weight: 600;
+            gap: rem(15px);
+            @include for-mobile-layout {
+                width: 80%;
+                flex: none;
+                padding: 0;
+            }
+
+            h3 {
+                color: rgb(27, 27, 27);
+                font-size: 1.3rem;
+                font-weight: 700;
+
+            }
+
+            span {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: .9rem;
+                font-weight: 600;
+            }
+            .contact-details{
+                span{
+                    margin-top: rem(6px);
+                    align-items: baseline;
+                    span{
+                        color: $clr3;
+                        margin-right: rem(5px);
+                    }
+                    @include for-mobile-layout {
+                       flex-wrap: wrap;
+                    }
+                }
+
+            }
+
+            button {
+                padding: .5rem ;
+                border-radius: 0.5em;
+                color: #fff;
+                background: $clr7;
+                box-shadow: 0px 5px 10px rgb(48 68 247 / 60%);
+                font-family:  sans-serif;
+                width: 50%;
+                font-size: 1.1rem;
+                letter-spacing: 0.1rem;
+                margin-top: rem(20px);
+                img {
+                    width: rem(25px);
+                    margin-left: 10px;
+                }
+
+                @include for-mobile-layout {
+                    width: 80%;
+                }
+
+            }
+            button:hover {
+                img{
+                    transform: translateX(7px);
+                    transition: all .5s;
+                }
+            }
+        }
+    }
+}

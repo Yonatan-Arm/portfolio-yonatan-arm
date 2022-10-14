@@ -1,0 +1,140 @@
+.App {
+  color: $clr2;
+  font-family: "Poppins", sans-serif;
+  padding: 1.7rem 10%;
+}
+
+
+
+
+.hero-img {
+  background-size: cover;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-position: 50% 100%;
+  position: absolute;
+  height: 85vh;
+
+  @include for-small-layout {
+    height: 95vh !important;
+  }
+
+  @include for-mobile-layout {
+    height: 90vh;
+  }
+}
+
+.navbar {
+  padding: 1.4rem 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 4rem;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgb(146 161 176 / 30%);
+  img{
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .nav {
+    @include for-normal-layout {
+      display: none;
+    }
+
+    .navigation {
+      gap: rem(28px);
+
+      span {
+        font-size: 1rem;
+        color: $clr2;
+        font-weight: 600;
+        text-decoration: none;
+        letter-spacing: 0.04rem;
+        transition: 0.2s;
+        margin-bottom: 2px;
+      }
+
+      span:hover {
+        cursor: pointer;
+        color: $clr3;
+        border-bottom: 0.2rem solid $clr3;
+      }
+
+    }
+  }
+
+  .mobile-nav {
+    display: none;
+
+    @include for-normal-layout {
+      display: unset;
+      img {
+        width: 25px;
+        right: 0;
+        cursor: pointer;;
+      }
+    
+
+
+      .navigation {
+        padding-top: rem(20px);
+        top: 20%;
+        right: 15%;
+        position: fixed;
+        width: 75vw;
+        height: 75%;
+        text-align: left;
+        align-items: flex-start;
+        background-color: $clr4;
+
+        span {
+          display: block;
+          padding: 1rem;
+          color: #fff;
+          font-size: 1.8rem;
+          width: 40%;
+          padding-left: 40px;
+          @include for-tablet-layout {
+            width: 80%;
+          }
+        }
+        span:hover {
+          cursor: pointer;
+          border-radius: 0.5rem;
+          border-bottom: 0.5rem solid $clr3;
+        }
+      }
+
+    }
+  }
+}
+
+
+
+.user-container {
+  background-color: $clr7;
+
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+
+  color: $clr5;
+
+  &.flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .movement-container {
+    margin: 2rem;
+
+    h2 {
+      text-align: center;
+    }
+  }
+}

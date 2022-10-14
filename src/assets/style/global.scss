@@ -1,0 +1,27 @@
+
+
+// Setup
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+
+// Basics
+@import 'basics/base';
+@import 'basics/helpers';
+@import 'basics/layout';
+
+// Pages
+@import 'components/HomePage.scss';
+@import 'components/About';
+@import 'components/Skills';
+@import 'components/Projects';
+@import 'components/Contact';
+@import 'components/Footer';
+@import 'components/Loader';
+@import 'components/Hero';
+
+ 
+
+// Components
+
+
