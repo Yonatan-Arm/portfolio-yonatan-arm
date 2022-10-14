@@ -1,0 +1,30 @@
+.projects-section{
+    background: linear-gradient(to bottom, #000031, #00002c);
+    min-height: 100vh;
+    padding: 2rem 9%;
+    left: 0;
+    width: 100%;
+    right: 0;
+
+    
+    h2 {
+        font-size: 2rem;
+        font-weight: 750;
+        text-align: center;
+        color: #fff;
+
+        @include for-small-layout {
+            flex-wrap: wrap;
+        }
+
+        span {
+            color: #ffe600;
+            margin-left: 4px;
+        }
+
+        img {
+            width: rem(45px);
+            margin-right: 4px;
+        }
+    }
+}

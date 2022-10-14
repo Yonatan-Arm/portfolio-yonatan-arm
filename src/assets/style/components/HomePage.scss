@@ -1,7 +1,6 @@
 .App {
   color: $clr2;
   font-family: "Poppins", sans-serif;
-  padding: 1.7rem 10%;
 }
 
 
@@ -15,6 +14,7 @@
   background-position: 50% 100%;
   position: absolute;
   height: 85vh;
+  padding: 1.7rem 10%;
 
   @include for-small-layout {
     height: 95vh !important;

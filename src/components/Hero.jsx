@@ -8,7 +8,7 @@ import profilePic from "../assets/imgs/me-bg.jpg";
 
 export default function Hero() {
   return (
-    <div className="hero-container flex wrap align-center justify-center">
+    <section className="hero-container flex wrap align-center justify-center">
       <div className="content">
         <h2>
           Hi There,
@@ -43,6 +43,6 @@ export default function Hero() {
 <div className="profile-pic">
 <img src={profilePic} alt="profile-Pic" />
 </div>
-     </div>
+     </section>
   );
 }

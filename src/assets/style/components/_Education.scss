@@ -1,0 +1,99 @@
+.education-section {
+    min-height: 80vh;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #e5ecfb;
+    ;
+
+    h2 {
+        font-size: 2rem;
+        color: $clr10;
+        font-weight: 750;
+        text-align: center;
+
+        @include for-small-layout {
+            flex-wrap: wrap;
+        }
+
+        span {
+            color: $clr11;
+            margin-left: 2px;
+        }
+
+        img {
+            width: rem(45px);
+            margin-right: 4px;
+        }
+    }
+
+    .inspiration {
+        margin-top: 10px;
+        font-size: 1rem;
+        font-family: "Nunito", sans-serif;
+        font-weight: 600;
+    }
+
+    .education-card {
+        width: 80%;
+        border-radius: 0.5rem;
+        box-shadow: 0.2rem 0.5rem 1rem rgb(0 0 0 / 20%);
+        margin: 2rem auto;
+
+        h3 {
+            font-size: 1.5rem;
+            color: #012970;
+            padding: 0.5rem 0;
+            font-weight: 600;
+            text-align: left;
+            margin-left: 1rem;
+            @include for-tablet-layout {
+                font-size: 1.2rem;
+            }
+        }
+
+        .info {
+            padding: 1rem;
+           
+            span{
+
+                font-size: 1.5rem;
+                margin-left: 1rem;
+                text-align: left;
+                @include for-tablet-layout {
+                    font-size: 1.1rem;
+                }
+            }
+
+        }
+
+        .img-box {
+            img {
+                object-fit: cover;
+                height: 100%;
+
+            }
+
+        @include for-tablet-layout {
+            img{
+                object-fit: fill;
+            }
+        }
+        }
+
+    }
+
+    .education-card:hover {
+        box-shadow: 1rem 0.5rem 1.2rem rgb(0 0 0 / 30%);
+    }
+
+}
+
+
+
+//     text-align: center;
+//     position: relative;
+//     margin-top: 2rem;
+//     overflow: hidden;
+//     transition: 0.3s;
+//     background: rgb(252, 252, 252);

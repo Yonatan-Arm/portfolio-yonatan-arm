@@ -5,7 +5,7 @@ import userImg from '../assets/imgs/man-user.svg'
 
 export default function About() {
   return (
-    <div className="about-section">
+    <section className="about-section">
       <h2>
         <img src={userImg} alt="" />
         About <span>Me</span>
@@ -33,6 +33,6 @@ export default function About() {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
