@@ -10,8 +10,8 @@
 @import 'basics/helpers';
 @import 'basics/layout';
 
-// Pages
-@import 'components/HomePage.scss';
+
+// Components
 @import 'components/About';
 @import 'components/Skills';
 @import 'components/Contact';
@@ -20,10 +20,12 @@
 @import 'components/Hero';
 @import 'components/Education';
 @import 'components/Projects';
+@import 'components/Contact';
+
+
+
+// Pages
 @import 'components/ProjectsPage';
-
- 
-
-// Components
+@import 'components/HomePage.scss';
 
 

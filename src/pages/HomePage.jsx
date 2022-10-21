@@ -4,6 +4,7 @@ import About from '../components/About';
 import Skills from '../components/Skills';
 import Education from '../components/Education';
 import Projects from '../components/Projects';
+import Contact from '../components/Contact';
 
 export default function HomePage() {
   window.scrollTo(0,0)
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Skills /> 
       <Education />
       <Projects />
+      <Contact />
     </section>
   )
 }

@@ -56,6 +56,7 @@
         letter-spacing: 0.04rem;
         transition: 0.2s;
         margin-bottom: 2px;
+        transition: .3s;
       }
 
       span:hover {
@@ -105,6 +106,7 @@
         text-align: left;
         align-items: flex-start;
         background-color: $clr4;
+        box-shadow: 0.2rem 0.5rem 1rem rgb(0 0 0 / 20%);
 
         span {
           display: block;
