@@ -1,30 +1,26 @@
-
-import './assets/style/global.scss';
-import Hero from './components/Hero';
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import "./assets/style/global.scss";
 import Navbar from './components/Navbar';
-import About from './components/About';
-import Skills from './components/Skills';
-import Education from './components/Education';
-import Projects from './components/Projects';
-
+import HomePage from "./pages/HomePage";
+import ProjectsPage from "./pages/ProjectsPage";
 
 function App() {
   return (
-    <div className="App">
-      <header>
-      <Navbar />
-      </header>
-      <main>
-      <Hero />
-      <About />
-      <Skills /> 
-      <Education />
-      <Projects />
-      </main>
-
-      
-    </div>
+    <Router>
+      <div className="App">
+        <header>
+          <Navbar />
+        </header>
+        <Routes>
+          <Route path="" element={<HomePage />} />
+          <Route path="projects" element={<ProjectsPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
 export default App;
+
+{
+}

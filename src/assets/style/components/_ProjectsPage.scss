@@ -1,6 +1,7 @@
-.projects-section {
+.projects-page {
     background: linear-gradient(to bottom, #000031, #00002c);
-    min-height: 90vh;
+    min-height: 100vh;
+    margin-top: 60px;
     padding: 2rem 9%;
     left: 0;
     width: 100%;
@@ -37,14 +38,14 @@
         border: 2px solid #fff;
         box-shadow: 0px 5px 10px rgb(65 84 241 / 40%);
         img{
-            margin-left: 5px;
+            margin-right: 5px;
             transition:  .5s;
         }
     }
     a:hover{
         background: #310ae0f5;
         img{
-            margin-left: 10px;
+            margin-right: 10px;
         }
     }
 
@@ -58,8 +59,8 @@
 
 
         .project-preview {
-            flex: 1 1 18rem;
-            max-width: 40%;
+            flex: 1 1 20rem;
+            max-width: 450px;
             border-radius: 0.5rem;
             box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
             position: relative;
@@ -68,14 +69,10 @@
             @include for-mobile-layout {
                 width: 250px;
             }
-            @include for-normal-layout {
-                max-width: 400px;
-            }
 
             img {
                 height: 100%;
                 width: 100%;
-                object-fit: fill;
             }
 
             .content {

@@ -1,19 +1,23 @@
 import React, { useEffect, useState } from "react";
 import { projectService } from "../services/project.service.js";
 import laptopImg from "../assets/imgs/laptop.svg";
-import arrowRightImg from "../assets/imgs/arrow-right.svg";
+import arrowLeftImg from "../assets/imgs/arrow-left.svg";
 import codeImg from "../assets/imgs/code.svg";
 import eyeImg from "../assets/imgs/eye.svg";
 import { Link } from "react-router-dom";
 
-export default function Projects() {
+export default function ProjectsPage() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const fetchData = async () => {
-      const res = await projectService.query();
-      const projectToDisplay = res.slice(0,6);
-      setProjects(projectToDisplay);
+      try {
+        const data = await projectService.query();
+        setProjects(data);
+      } catch (error) {
+        console.log(error);
+      }
     };
     fetchData();
     return () => {
@@ -22,7 +26,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <section className="projects-section">
+    <section className="projects-page">
       <h2 className="flex align-center justify-center">
         <img src={laptopImg} alt="laptop-img"></img>
         Projects <span> Made</span>
@@ -73,11 +77,11 @@ export default function Projects() {
         )}
       </div>
       <div className="flex justify-center align-center">
-      <Link to="/projects" className="flex justify-center align-center">View All
-        <img src={arrowRightImg} alt="arrow-Right-Img" />
+        <Link to="/" className="flex justify-center align-center">
+          <img src={arrowLeftImg} alt="arrow-Left-Img" />
+          Back To Home
         </Link>
       </div>
     </section>
   );
 }
-

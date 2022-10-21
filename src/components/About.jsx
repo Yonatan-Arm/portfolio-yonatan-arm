@@ -25,8 +25,8 @@ export default function About() {
           </p>
           <div className="contact-details ">
             <span className="flex row "><span>Age:</span>  23</span>
-            <span className="flex row"><span>Phone :</span> 052-834-9626</span>
-            <span className="flex row"><span>Email :</span> yoniarm123@gmail.com</span>
+            <span className="flex row"><span>Phone:</span> 052-834-9626</span>
+            <span className="flex row"><span>Email:</span> yoniarm123@gmail.com</span>
           </div>
           <button className="flex align-center justify-center">Resume
             <img src={arrowRight} alt="arrowRight" />

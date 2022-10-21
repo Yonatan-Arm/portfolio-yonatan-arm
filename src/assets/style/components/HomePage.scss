@@ -67,6 +67,21 @@
     }
   }
 
+  .top-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+    background: #ffae00;
+    color: rgb(13, 0, 44);
+    border-radius: 50%;
+    transition: 1s linear;
+    z-index: 1000;
+    height: 40px;
+    width: 40px;
+  }
+
   .mobile-nav {
     display: none;
 
