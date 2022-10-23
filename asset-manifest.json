@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-yonatan-arm/static/css/main.11ecccf2.css",
+    "main.js": "/portfolio-yonatan-arm/static/js/main.a516d1b9.js",
+    "static/js/787.e4819a8d.chunk.js": "/portfolio-yonatan-arm/static/js/787.e4819a8d.chunk.js",
+    "static/media/hero.gif": "/portfolio-yonatan-arm/static/media/hero.acf84ff67522076b3dc6.gif",
+    "static/media/profile-link.jpeg": "/portfolio-yonatan-arm/static/media/profile-link.40fba578db5c616260cb.jpeg",
+    "static/media/contact.png": "/portfolio-yonatan-arm/static/media/contact.fae87f0b7ed654821997.png",
+    "static/media/me-bg.jpg": "/portfolio-yonatan-arm/static/media/me-bg.afbf864d0df5c7621028.jpg",
+    "static/media/logo.svg": "/portfolio-yonatan-arm/static/media/logo.a853b2982be7b42b7ff0d99da3207a50.svg",
+    "static/media/linkdinLogo.svg": "/portfolio-yonatan-arm/static/media/linkdinLogo.b5c627bde2027405951e609a9b35b672.svg",
+    "static/media/eye.svg": "/portfolio-yonatan-arm/static/media/eye.0d8db0be624d18ce661c32c6edce8671.svg",
+    "static/media/headphones.svg": "/portfolio-yonatan-arm/static/media/headphones.2b024f33514d27fac69667f8eba8c647.svg",
+    "static/media/send.svg": "/portfolio-yonatan-arm/static/media/send.83cd7039815d204a3f6019615be1f823.svg",
+    "static/media/graduate-hat.svg": "/portfolio-yonatan-arm/static/media/graduate-hat.dfb749cedee3cc179a67b31e9304c355.svg",
+    "static/media/code.svg": "/portfolio-yonatan-arm/static/media/code.d379247746e0147f3a3f8396ead7edc7.svg",
+    "static/media/githubLogo.svg": "/portfolio-yonatan-arm/static/media/githubLogo.3a13c4afb9a3768554d5369473de389d.svg",
+    "static/media/man-user.svg": "/portfolio-yonatan-arm/static/media/man-user.80f5bb20f06798ba43c7c127a420babf.svg",
+    "static/media/whatsappLogo.svg": "/portfolio-yonatan-arm/static/media/whatsappLogo.9c69363645c73efb98b21f61fdb4cee3.svg",
+    "static/media/menu.svg": "/portfolio-yonatan-arm/static/media/menu.159fcb08780dd7a33a8baaa7831d5156.svg",
+    "static/media/down-arrow.svg": "/portfolio-yonatan-arm/static/media/down-arrow.7ecf9107023c38cf12bb5c57b919522d.svg",
+    "static/media/laptop.svg": "/portfolio-yonatan-arm/static/media/laptop.c6ea6b5fcbcaa9336ca401b4620df381.svg",
+    "index.html": "/portfolio-yonatan-arm/index.html",
+    "static/media/arrow-up.svg": "/portfolio-yonatan-arm/static/media/arrow-up.e8b6ee1fce4c10b4e7eaf7ec468dbf7a.svg",
+    "static/media/arrow-left.svg": "/portfolio-yonatan-arm/static/media/arrow-left.5d61078585351cdf9171fe470728918a.svg",
+    "static/media/arrow-right.svg": "/portfolio-yonatan-arm/static/media/arrow-right.3424e17b767154956f9d079a1ac0879b.svg",
+    "static/media/x-lg.svg": "/portfolio-yonatan-arm/static/media/x-lg.0fc293a3ecad88d7710017ab8d5ab716.svg",
+    "main.11ecccf2.css.map": "/portfolio-yonatan-arm/static/css/main.11ecccf2.css.map",
+    "main.a516d1b9.js.map": "/portfolio-yonatan-arm/static/js/main.a516d1b9.js.map",
+    "787.e4819a8d.chunk.js.map": "/portfolio-yonatan-arm/static/js/787.e4819a8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11ecccf2.css",
+    "static/js/main.a516d1b9.js"
+  ]
+}
