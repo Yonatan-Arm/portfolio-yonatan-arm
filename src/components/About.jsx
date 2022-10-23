@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section className="about-section" id="About">
       <h2>
-        <img src={userImg} alt="" />
+        <img src={userImg} alt="user-Img" />
         About <span>Me</span>
       </h2>
       <div className="about-content flex row">

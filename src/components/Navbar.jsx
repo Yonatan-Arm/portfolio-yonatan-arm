@@ -5,9 +5,6 @@ import logo from "../assets/imgs/logo.svg";
 import x from "../assets/imgs/x-lg.svg";
 export default function Navbar() {
   const [isOpenModel, setIsOpenModel] = useState(false);
-  const scroll =() => {
-    // scrollTo()
-  }
 
 
   return (
