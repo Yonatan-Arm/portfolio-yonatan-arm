@@ -5,7 +5,7 @@ import userImg from '../assets/imgs/man-user.svg'
 
 export default function About() {
   return (
-    <section className="about-section">
+    <section className="about-section" id="About">
       <h2>
         <img src={userImg} alt="" />
         About <span>Me</span>

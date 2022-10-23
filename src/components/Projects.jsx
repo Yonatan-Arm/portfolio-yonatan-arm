@@ -22,7 +22,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <section className="projects-section">
+    <section className="projects-section" id="Projects">
       <h2 className="flex align-center justify-center">
         <img src={laptopImg} alt="laptop-img"></img>
         Projects <span> Made</span>

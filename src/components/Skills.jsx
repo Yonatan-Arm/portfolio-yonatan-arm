@@ -18,7 +18,7 @@ export default function Skills() {
     "Github",
   ];
   return (
-    <section className="skills-section">
+    <section className="skills-section" id="Skills">
       <h2 className="flex align-center justify-center">
         <img src={laptopImg} alt="laptop-img" ></img>
         Skills & <span> Abilities</span>

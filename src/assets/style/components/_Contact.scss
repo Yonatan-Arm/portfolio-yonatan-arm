@@ -141,6 +141,22 @@
 
         }
 
+        .message{
+            h2{
+                color: #00bef1;
+            }
+            p{
+                font-weight: 600;
+                margin-top: 10px;
+            }
+            @include for-wide-layout {
+                width: 100%;
+                align-items: center;
+                justify-content: flex-start;
+                height: 250px;
+            }
+        }
+
     }
 
 

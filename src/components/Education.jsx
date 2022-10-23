@@ -4,7 +4,7 @@ import codingImg from '../assets/imgs/coding.jpg'
 
 export default function Education() {
   return (
-    <section className='education-section'>
+    <section className='education-section' id="Education">
         <h2 className='flex align-center justify-center'><img src={graduateImg} alt="hat-img" />My <span>Education </span></h2>
         <span className='inspiration flex align-center justify-center'>Education Is Not The Learning Of Facts, But The Training Of The Mind To Think.</span>
     <div className='flex row education-card'> 
