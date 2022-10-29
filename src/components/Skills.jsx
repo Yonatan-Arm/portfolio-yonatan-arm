@@ -9,6 +9,7 @@ export default function Skills() {
     "ExpressJS",
     "NodeJS",
     "Redux",
+    "TypeScript",
     "Bootstrap",
     "JavaScript",
     "CSS3",

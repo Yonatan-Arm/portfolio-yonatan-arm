@@ -107,9 +107,11 @@
 
     .profile-pic {
         flex: 1 1 25rem;
+        display: flex;
 
         img {
-            width: 55%;
+            max-width: 330px;
+            width: 70%;
             border-radius: 50%;
             box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
 
@@ -118,20 +120,23 @@
             }
 
             @include for-normal-layout {
-                width: 30%;
                 height: 300px;
                 margin-left: 6rem;
             }
 
             @include for-tablet-layout {
-                width: 40%;
+                width: 35%;
                 height: 220px;
                 margin-bottom: 20px;
             }
 
             @include for-mobile-layout {
                 width: 55%;
-                margin-left: 3rem;
+                margin: 0 auto;
+            }
+            @include for-small-layout {
+                width: 70%;
+                
             }
         }
 
