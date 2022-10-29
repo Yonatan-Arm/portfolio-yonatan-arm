@@ -1,5 +1,6 @@
 import React from "react";
 import laptopImg from '../assets/imgs/laptop.svg'
+import { Fade } from "react-reveal";
 
 export default function Skills() {
   const skills = [
@@ -18,11 +19,12 @@ export default function Skills() {
     "Github",
   ];
   return (
-    <section className="skills-section" id="Skills">
+    <section className="skills-section" id="skills">
       <h2 className="flex align-center justify-center">
         <img src={laptopImg} alt="laptop-img" ></img>
         Skills & <span> Abilities</span>
       </h2>
+      <Fade top big>
       <div>
         {!skills ? (
           <div> loading... </div>
@@ -40,6 +42,7 @@ export default function Skills() {
           </div>
         )}
       </div>
+      </Fade>
     </section>
   );
 }

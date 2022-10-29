@@ -39,6 +39,9 @@
         border-radius: 0.5rem;
         box-shadow: 0.2rem 0.5rem 1rem rgb(0 0 0 / 20%);
         margin: 2rem auto;
+        @include for-mobile-layout {
+            width: 100%;
+        }
 
         h3 {
             font-size: 1.5rem;

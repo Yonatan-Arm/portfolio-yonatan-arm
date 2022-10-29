@@ -137,10 +137,7 @@
 
         .project-preview:hover {
             .content {
-                top: 15%;
-                @include for-wide-layout {
                     top: 8%;
-                }
                 @include for-mobile-layout {
                     top: 5%;
                 }

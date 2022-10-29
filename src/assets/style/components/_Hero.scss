@@ -40,7 +40,7 @@
 
         }
 
-        button {
+        .btn-about {
             margin-top: 1rem;
             line-height: 0;
             padding: .8rem .8rem;
@@ -53,14 +53,16 @@
             font-size: 1rem;
             letter-spacing: 0.1rem;
             gap: 15px;
+            width: 200px;
 
             img {
                 width: rem(25px);
+                margin-left: 3px;
             }
 
         }
 
-        button:hover {
+        .btn-about:hover {
             background: $clr3;
 
             img {
@@ -109,6 +111,9 @@
         width:55%;
         border-radius: 50%;
         box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
+        @include for-wide-layout {
+                width:40%;
+        }
         @include for-normal-layout {
             width:30%;
             height: 300px;

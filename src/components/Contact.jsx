@@ -3,6 +3,7 @@ import headPhonesImg from "../assets/imgs/headphones.svg";
 import contactImg from "../assets/imgs/contact.png";
 import sendImg from "../assets/imgs/send.svg";
 import emailjs from "@emailjs/browser";
+import { Fade } from "react-reveal";
 
 export default function Contact() {
   const [sendMessage, setSendMessage] = useState(false)
@@ -31,7 +32,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="contact-section" id="Contact">
+    <section className="contact-section" id="contact">
       <h2 className="flex align-center justify-center">
         <img src={headPhonesImg} alt="headPhones-img" />
         Get In <span>Touch </span>
@@ -47,6 +48,7 @@ export default function Contact() {
         </div>
         )
          : (
+          <Fade top big>
              <form ref={form} onSubmit={sendEmail}>
              <div className="flex column justify-center">
                <div className="filed">
@@ -65,6 +67,7 @@ export default function Contact() {
              </button>
              </div>
            </form>
+           </Fade>
         )}
      
       </div>
