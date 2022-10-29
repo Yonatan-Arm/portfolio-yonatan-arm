@@ -44,6 +44,7 @@
         @include for-wide-layout {
             gap: 0;
             min-height: 100vh;
+            width: 80%;
         }
 
         @include for-mobile-layout {
@@ -66,9 +67,13 @@
             padding-top: 25px;
             @include for-wide-layout {
                 width: 70%;
+                display: flex;
+                flex-direction: column;
+                gap: 120px;
             }
             @include for-tablet-layout {
                 width: 80%;
+                gap: 20px;
             }
             @include for-mobile-layout {
                 width: 100%;
@@ -119,7 +124,7 @@
                     background: #2506ad;
                     box-shadow: 0px 5px 10px rgb(48 68 247 / 60%);
                     bottom: 12px;
-                    right: 12px;
+                    right: 0;
                     position: absolute;
                     display: flex;
                     align-items: center;

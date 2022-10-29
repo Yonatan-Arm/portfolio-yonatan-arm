@@ -96,9 +96,9 @@
                     width: 25px;
                 }
             }
-            a:hover{
-                background: #a2b1961f;
-              
+
+            a:hover {
+                filter: invert(90%);
             }
         }
 
@@ -107,33 +107,39 @@
 
     .profile-pic {
         flex: 1 1 25rem;
-        img{
-        width:55%;
-        border-radius: 50%;
-        box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
-        @include for-wide-layout {
-                width:40%;
-        }
-        @include for-normal-layout {
-            width:30%;
-            height: 300px;
-            margin-left: 6rem;
-          }
-        @include for-tablet-layout {
-            width:40%;
-            height: 220px;
-            margin-bottom: 20px;
-          }
-        @include for-mobile-layout {
-            width:55%;
-            margin-left: 3rem;
-          }
-    }
-    img:hover{
-        box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
-        transform: perspective(1000px) rotateX(20deg) rotateY(330deg) scale3d(1, 1, 1);
-        cursor: pointer;
 
+        img {
+            width: 55%;
+            border-radius: 50%;
+            box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
+
+            @include for-wide-layout {
+                width: 40%;
+            }
+
+            @include for-normal-layout {
+                width: 30%;
+                height: 300px;
+                margin-left: 6rem;
+            }
+
+            @include for-tablet-layout {
+                width: 40%;
+                height: 220px;
+                margin-bottom: 20px;
+            }
+
+            @include for-mobile-layout {
+                width: 55%;
+                margin-left: 3rem;
+            }
+        }
+
+        img:hover {
+            box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+            transform: perspective(1000px) rotateX(20deg) rotateY(330deg) scale3d(1, 1, 1);
+            cursor: pointer;
+
+        }
     }
-}
 }

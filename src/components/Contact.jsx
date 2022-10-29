@@ -49,7 +49,7 @@ export default function Contact() {
         )
          : (
           <Fade top big>
-             <form ref={form} onSubmit={sendEmail}>
+             <form ref={form} onSubmit={sendEmail} >
              <div className="flex column justify-center">
                <div className="filed">
                  <input type="text" name="user_name" placeholder="Name" />
