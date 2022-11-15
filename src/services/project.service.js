@@ -8,7 +8,7 @@ const PROJECTS = [
     title: "Airyny",
     description:
       "Airyny is  market place app based application a version of the Airbnb for project management ",
-    gameUrl: "https://airyny-yonatan.herokuapp.com/#/",
+    gameUrl: "https://airyny-yonatan.onrender.com/#/",
     label: "Full Stack",
     tech: ["Vue", "Vuex", "Node.js", "MongoDB"],
   },
@@ -17,7 +17,7 @@ const PROJECTS = [
     title: "jobi-app",
     description:
       "Web application to manage my job hunt status and my workflow progress using MERN stack technologies",
-    gameUrl: "https://jobi-yona.herokuapp.com/#/",
+    gameUrl: "https://jobi-6bv6.onrender.com/",
     label: "Full Stack",
     tech: ["React", "Redux", "Node.js", "MongoDB"],
   },
@@ -26,7 +26,7 @@ const PROJECTS = [
     title: "sociel-media",
     description:
       "Web application to send messages between users, and manage friends list using MERN stack technologies",
-    gameUrl: "https://yonatan-arm-test.herokuapp.com/#/login",
+    gameUrl: "https://sociel-media.onrender.com/#/login",
     label: "Full Stack",
     tech: ["React", "Node.js", "socket io", "scss", "MongoDB"],
   },
