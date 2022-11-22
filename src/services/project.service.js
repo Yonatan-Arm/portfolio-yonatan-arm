@@ -23,7 +23,7 @@ const PROJECTS = [
   },
   {
     _id: "u103",
-    title: "sociel-media",
+    title: "chat-app",
     description:
       "Web application to send messages between users, and manage friends list using MERN stack technologies",
     gameUrl: "https://sociel-media.onrender.com/#/login",
@@ -44,7 +44,7 @@ const PROJECTS = [
     title: "MisterToy",
     description:
       "Toy app that allows the user to add, edit and remove toys. More features: authentication, filter, search and sort",
-    gameUrl: "https://enigmatic-anchorage-55210.herokuapp.com",
+    gameUrl: "https://mistertoy-vue.onrender.com/#/",
     label: "Full Stack",
     tech: ["Vue", "Vuex", "Node.js", "MongoDB"],
   },
