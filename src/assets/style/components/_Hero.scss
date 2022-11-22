@@ -1,7 +1,10 @@
 .hero-container {
-    background-image: url('../../imgs/hero.gif');
+    background-image: url('../../imgs/back-gif.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
     height: 100%;
-    margin-top: 50px;
+    margin-top: 60px;
     padding: 2rem 10%;
     gap: 50px;
     top: 0;
