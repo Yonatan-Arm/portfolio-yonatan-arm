@@ -17,7 +17,7 @@ const PROJECTS = [
     title: "jobi-app",
     description:
       "Web application to manage my job hunt status and my workflow progress using MERN stack technologies",
-    gameUrl: "https://jobi-6bv6.onrender.com/",
+    gameUrl: "https://jobi-49h2.onrender.com/",
     label: "Full Stack",
     tech: ["React", "Redux", "Node.js", "MongoDB"],
   },
