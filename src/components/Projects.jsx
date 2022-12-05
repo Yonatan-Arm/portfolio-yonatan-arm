@@ -51,7 +51,7 @@ export default function Projects() {
                       <p>{project.description}</p>
                       <div className="btns flex space-between">
                         <a
-                          href="/"
+                          href={project.gameCode}
                           target="blank"
                           className="flex row justify-center align-center"
                         >
