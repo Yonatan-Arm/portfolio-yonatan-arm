@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio-yonatan-arm/static/css/main.4a73640f.css",
-    "main.js": "/portfolio-yonatan-arm/static/js/main.34cd0df6.js",
+    "main.css": "/portfolio-yonatan-arm/static/css/main.5a1d5579.css",
+    "main.js": "/portfolio-yonatan-arm/static/js/main.b3a218bc.js",
     "static/js/787.e4819a8d.chunk.js": "/portfolio-yonatan-arm/static/js/787.e4819a8d.chunk.js",
+    "static/media/hero-back.jpg": "/portfolio-yonatan-arm/static/media/hero-back.ee76b43e906e80be0144.jpg",
     "static/media/profile-link.jpeg": "/portfolio-yonatan-arm/static/media/profile-link.40fba578db5c616260cb.jpeg",
-    "static/media/back-gif.gif": "/portfolio-yonatan-arm/static/media/back-gif.9b85a49a0f4e26463352.gif",
     "static/media/contact.png": "/portfolio-yonatan-arm/static/media/contact.fae87f0b7ed654821997.png",
-    "static/media/Yonatan_Arm_cv2.pdf": "/portfolio-yonatan-arm/static/media/Yonatan_Arm_cv2.b52c9cbf0700fd79dad2.pdf",
+    "static/media/Yonatan_Arm_cv2.pdf": "/portfolio-yonatan-arm/static/media/Yonatan_Arm_cv2.2c6d0cc2a89f8a27785c.pdf",
     "static/media/me-bg.jpg": "/portfolio-yonatan-arm/static/media/me-bg.014cda8e8403aa808b8c.jpg",
     "static/media/logo.svg": "/portfolio-yonatan-arm/static/media/logo.a853b2982be7b42b7ff0d99da3207a50.svg",
     "static/media/linkdinLogo.svg": "/portfolio-yonatan-arm/static/media/linkdinLogo.b5c627bde2027405951e609a9b35b672.svg",
@@ -25,12 +25,12 @@
     "static/media/arrow-left.svg": "/portfolio-yonatan-arm/static/media/arrow-left.5d61078585351cdf9171fe470728918a.svg",
     "static/media/arrow-right.svg": "/portfolio-yonatan-arm/static/media/arrow-right.3424e17b767154956f9d079a1ac0879b.svg",
     "static/media/x-lg.svg": "/portfolio-yonatan-arm/static/media/x-lg.0fc293a3ecad88d7710017ab8d5ab716.svg",
-    "main.4a73640f.css.map": "/portfolio-yonatan-arm/static/css/main.4a73640f.css.map",
-    "main.34cd0df6.js.map": "/portfolio-yonatan-arm/static/js/main.34cd0df6.js.map",
+    "main.5a1d5579.css.map": "/portfolio-yonatan-arm/static/css/main.5a1d5579.css.map",
+    "main.b3a218bc.js.map": "/portfolio-yonatan-arm/static/js/main.b3a218bc.js.map",
     "787.e4819a8d.chunk.js.map": "/portfolio-yonatan-arm/static/js/787.e4819a8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a73640f.css",
-    "static/js/main.34cd0df6.js"
+    "static/css/main.5a1d5579.css",
+    "static/js/main.b3a218bc.js"
   ]
 }
