@@ -1,4 +1,4 @@
-import React, {  useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import headPhonesImg from "../assets/imgs/headphones.svg";
 import contactImg from "../assets/imgs/contact.png";
 import sendImg from "../assets/imgs/send.svg";
@@ -6,13 +6,13 @@ import emailjs from "@emailjs/browser";
 import { Fade } from "react-reveal";
 
 export default function Contact() {
-  const [sendMessage, setSendMessage] = useState(false)
+  const [sendMessage, setSendMessage] = useState(false);
   const form = useRef();
-
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm(
+    emailjs
+      .sendForm(
         "service_qzxap0r",
         "template_wt0f4ng",
         form.current,
@@ -20,9 +20,9 @@ export default function Contact() {
       )
       .then(
         (result) => {
-          setSendMessage(true)
+          setSendMessage(true);
           setTimeout(() => {
-            setSendMessage(false)
+            setSendMessage(false);
           }, 10000);
         },
         (error) => {
@@ -42,34 +42,38 @@ export default function Contact() {
           <img src={contactImg} alt="img-box" />
         </div>
         {sendMessage ? (
-        <div className="flex column justify-center message"> 
-        <h2>Thank you!</h2>
-        <p>Your email has been sent. I'll get back to you shortly. </p> 
-        </div>
-        )
-         : (
+          <div className="flex column justify-center message">
+            <h2>Thank you!</h2>
+            <p>Your email has been sent. I'll get back to you shortly. </p>
+          </div>
+        ) : (
           <Fade top big>
-             <form ref={form} onSubmit={sendEmail} >
-             <div className="flex column justify-center">
-               <div className="filed">
-                 <input type="text" name="user_name" placeholder="Name" />
-               </div>
-               <div className="filed">
-                 <input type="email" name="user_email" placeholder="Enter email"/>
-             </div>
-               <div className="filed">
-                 <textarea name="message"  placeholder="Your message" />
-             </div>
-             </div>
-             <div className="btn-box">
-             <button> Submit
-               <img src={sendImg} alt="send-img" />
-             </button>
-             </div>
-           </form>
-           </Fade>
+            <form ref={form} onSubmit={sendEmail}>
+              <div className="flex column justify-center">
+                <div className="filed">
+                  <input type="text" name="user_name" placeholder="Name" />
+                </div>
+                <div className="filed">
+                  <input
+                    type="email"
+                    name="user_email"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div className="filed">
+                  <textarea name="message" placeholder="Your message" />
+                </div>
+              </div>
+              <div className="btn-box">
+                <button>
+                  {" "}
+                  Submit
+                  <img src={sendImg} alt="send-img" />
+                </button>
+              </div>
+            </form>
+          </Fade>
         )}
-     
       </div>
     </section>
   );

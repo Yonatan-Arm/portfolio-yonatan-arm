@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <section className="navbar flex space-between align-center justify-center">
-      <img src={logo} alt="logo" />
+      <img src={logo} alt="logo" onClick={()=>window.scrollTo(0,0)} />
       <div className="nav flex">
         <div className="navigation flex row">
           <span><AnchorLink href="#home">Home</AnchorLink></span>
