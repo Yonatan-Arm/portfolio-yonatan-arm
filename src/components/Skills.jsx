@@ -10,14 +10,12 @@ export default function Skills() {
     "NodeJS",
     "Redux",
     "TypeScript",
-    "Bootstrap",
     "JavaScript",
-    "CSS3",
     "MongoDB",
     "Sass",
-    "Heroku",
-    "Html5",
     "Github",
+    "html5",
+    "css3",
   ];
   return (
     <section className="skills-section" id="skills">
