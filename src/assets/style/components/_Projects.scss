@@ -67,6 +67,7 @@
             height: 17rem;
             @include for-mobile-layout {
                 width: 250px;
+                height: 19rem;
             }
             @include for-normal-layout {
                 max-width: 400px;
@@ -107,6 +108,7 @@
                     background: #ffd900;
                     font-size: 1.6rem;
                     font-weight: 550;
+                    height: 10%;
                 }
                 span{
                     margin-top: 5px;
@@ -140,12 +142,12 @@
 
         .project-preview:hover {
             .content {
-                top: 8%;
+                top: 2%;
                 @include for-mobile-layout {
-                    top: 5%;
+                    // top: 5%;
                 }
                 @include for-small-layout {
-                    top: 0;
+                    // top: 0;
                 }
             }
         }

@@ -25,55 +25,61 @@ export default function Hero() {
         className="hero-container flex wrap align-center justify-center"
         id="home"
       >
-        <div className="content">
+        <div className="context flex column align-center">
+        <div className="profile-pic">
+    <img
+      src={profilePic}
+      alt="profile-Pic"
+      style={imgStyle}
+      onMouseMove={(ev) => handleMouseEnter(ev)}
+    />
+  </div>
+          <h1>I am Yonatan Arm </h1>
           <h2>
-            Hi There,
-            <br />
-            I'm Yonatan <span>Arm</span>
-          </h2>
-          <p className="dev flex row ">
-            I Am
             <Typed />
-          </p>
+          </h2>
+          <div className="sociel-media flex row justify-center">
+            <a
+              href="https://www.linkedin.com/in/yonatan-arm-b2a3b0238/"
+              target="blank"
+            >
+              <img src={linkdinLogo} alt="linkdinLogo" />
+            </a>
+            <a href="https://github.com/Yonatan-Arm" target="blank">
+              <img src={githubLogo} alt="githubLogo" />
+            </a>
+            <a
+              href="https://wa.me/+972528349626/?text=Hi Yonatan"
+              target="blank"
+            >
+              <img src={whatsappLogo} alt="whatsappLogo" />
+            </a>
+          </div>
           <span className="btn-about flex align-center justify-center">
-            <AnchorLink href="#about" className="flex align-center">
+            <AnchorLink href="#about" className="flex align-center justify-center">
               About Me
               <img src={arrowDown} alt="arrow-down" />
             </AnchorLink>
           </span>
-          <div className="sociel-media flex row">
-            <div>
-              <a
-                href="https://www.linkedin.com/in/yonatan-arm-b2a3b0238/"
-                target="blank"
-              >
-                <img src={linkdinLogo} alt="linkdinLogo" />
-              </a>
-            </div>
-            <div>
-              <a href="https://github.com/Yonatan-Arm" target="blank">
-                <img src={githubLogo} alt="githubLogo" />
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://wa.me/+972528349626/?text=Hi Yonatan"
-                target="blank"
-              >
-                <img src={whatsappLogo} alt="whatsappLogo" />
-              </a>
-            </div>
-          </div>
         </div>
-        <div className="profile-pic">
-          <img
-            src={profilePic}
-            alt="profile-Pic"
-            style={imgStyle}
-            onMouseMove={(ev) => handleMouseEnter(ev)}
-          />
+        <div className="area">
+          <ul className="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
       </section>
     </Zoom>
   );
 }
+
+
+

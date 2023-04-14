@@ -1,6 +1,6 @@
 .App {
   color: $clr2;
-  font-family: "Poppins", sans-serif;
+  font-family: exo;;
 }
 
 
@@ -75,7 +75,7 @@
     right: 20px;
     padding-top: 10px;
     font-size: 30px;
-    background: #ffae00;
+    background: #4e54c8;
     color: rgb(13, 0, 44);
     border-radius: 50%;
     transition: 1s linear;
@@ -109,6 +109,10 @@
         align-items: flex-start;
         background-color: $clr4;
         box-shadow: 0.2rem 0.5rem 1rem rgb(0 0 0 / 20%);
+       
+        @include for-mobile-layout {
+          top: 64px;
+        }
         span {
           display: block;
           padding: 1rem;
@@ -117,6 +121,7 @@
           width: 40%;
           padding-left: 40px;
           margin: 1rem auto;
+           
 
           @include for-mobile-layout {
             width: 80%;

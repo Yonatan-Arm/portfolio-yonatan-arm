@@ -36,15 +36,11 @@ export default function About() {
             <h3> I'm Yonatan</h3>
             <span> Full Stack Developer</span>
             <p>
-              As a self-taught full-stack developer, I have a demonstrated
-              history of successfully building valuable applications, including
-              the creation of Airyny. I possess exceptional interpersonal and
-              problem-solving skills, and am driven by a deep passion for
-              bringing innovative ideas to life. With a keen attention to detail
-              and a natural ability to stay organized and productive, I approach
-              every challenge with determination and a desire to excel. I am
-              continuously seeking new opportunities to further develop my
-              skills and make a positive impact.
+              As a full-stack developer specializing in the MERN stack, i thrive
+              on creating dynamic and user-friendly web applications. With a
+              solid background in web development and a passion for coding, I
+              have honed my skills in the latest technologies and web
+              development best practices.
             </p>
             <div className="contact-details ">
               <span className="flex row ">
