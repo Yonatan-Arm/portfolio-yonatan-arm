@@ -8,14 +8,13 @@ import { Fade } from "react-reveal";
 export default function Contact() {
   const [sendMessage, setSendMessage] = useState(false);
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
         "service_qzxap0r",
         "template_wt0f4ng",
-        form.current,
+        e.target,
         "nAg_NofuvJfYHzrFz"
       )
       .then(
@@ -48,7 +47,7 @@ export default function Contact() {
           </div>
         ) : (
           <Fade top big>
-            <form ref={form} onSubmit={sendEmail}>
+            <form onSubmit={sendEmail} ref={form}>
               <div className="flex column justify-center">
                 <div className="filed">
                   <input type="text" name="user_name" placeholder="Name" />
