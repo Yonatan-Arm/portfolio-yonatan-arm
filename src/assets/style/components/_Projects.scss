@@ -143,12 +143,6 @@
         .project-preview:hover {
             .content {
                 top: 2%;
-                @include for-mobile-layout {
-                    // top: 5%;
-                }
-                @include for-small-layout {
-                    // top: 0;
-                }
             }
         }
 

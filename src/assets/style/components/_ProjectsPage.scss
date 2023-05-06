@@ -29,22 +29,25 @@
         }
     }
 
-    a{
+    a {
         padding: .8rem;
         border-radius: 0.5em;
-        transition:  0.5s;
+        transition: 0.5s;
         color: rgb(255, 255, 255);
         font-weight: 700;
         border: 2px solid #fff;
         box-shadow: 0px 5px 10px rgb(65 84 241 / 40%);
-        img{
+
+        img {
             margin-right: 5px;
-            transition:  .5s;
+            transition: .5s;
         }
     }
-    a:hover{
+
+    a:hover {
         background: #310ae0f5;
-        img{
+
+        img {
             margin-right: 10px;
         }
     }
@@ -53,21 +56,29 @@
         flex-wrap: wrap;
         gap: 1.5rem;
         margin: 2rem;
+
         @include for-mobile-layout {
             margin: 1rem;
         }
 
 
         .project-preview {
-            flex: 1 1 20rem;
-            max-width: 450px;
+            flex: 1 1 18rem;
+            max-width: 40%;
             border-radius: 0.5rem;
             box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
             position: relative;
             overflow: hidden;
             height: 17rem;
+
             @include for-mobile-layout {
                 width: 250px;
+                height: 19rem;
+
+            }
+
+            @include for-normal-layout {
+                max-width: 400px;
             }
 
             img {
@@ -105,7 +116,8 @@
                     font-size: 1.6rem;
                     font-weight: 550;
                 }
-                span{
+
+                span {
                     margin-top: 5px;
                     font-weight: 600;
                 }
@@ -122,11 +134,13 @@
                         background: rgb(12, 12, 12);
                         margin-right: 2rem;
                         gap: 5px;
-                        img{
+
+                        img {
                             width: 20px;
                         }
                     }
-                    a:hover{
+
+                    a:hover {
                         background: #310ae0f5;
                     }
                 }
@@ -137,12 +151,11 @@
 
         .project-preview:hover {
             .content {
-                    top: 8%;
-                @include for-mobile-layout {
-                    top: 5%;
-                }
-                @include for-small-layout {
-                    top: 0;
+                top: 2%;
+
+                p {
+                    font-size: 1rem;
+
                 }
             }
         }
