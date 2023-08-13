@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio-yonatan-arm/static/css/main.6d555a36.css",
-    "main.js": "/portfolio-yonatan-arm/static/js/main.f85d424c.js",
+    "main.css": "/portfolio-yonatan-arm/static/css/main.e34f1fdc.css",
+    "main.js": "/portfolio-yonatan-arm/static/js/main.11754c2b.js",
     "static/js/787.e4819a8d.chunk.js": "/portfolio-yonatan-arm/static/js/787.e4819a8d.chunk.js",
     "static/media/profile-link.jpeg": "/portfolio-yonatan-arm/static/media/profile-link.40fba578db5c616260cb.jpeg",
     "static/media/Exo-VariableFont_wght.ttf": "/portfolio-yonatan-arm/static/media/Exo-VariableFont_wght.610eb1f17b14eb63b0f7.ttf",
+    "static/media/Yonatan_Arm_cv2.pdf": "/portfolio-yonatan-arm/static/media/Yonatan_Arm_cv2.882c20c8dea881c0afd9.pdf",
     "static/media/contact.png": "/portfolio-yonatan-arm/static/media/contact.fae87f0b7ed654821997.png",
-    "static/media/Yonatan_Arm_cv2.pdf": "/portfolio-yonatan-arm/static/media/Yonatan_Arm_cv2.c49508919d1ae7cbcdb2.pdf",
     "static/media/me-bg.jpg": "/portfolio-yonatan-arm/static/media/me-bg.014cda8e8403aa808b8c.jpg",
     "static/media/logo.svg": "/portfolio-yonatan-arm/static/media/logo.a853b2982be7b42b7ff0d99da3207a50.svg",
     "static/media/linkdinLogo.svg": "/portfolio-yonatan-arm/static/media/linkdinLogo.daf5eaebf3d6c47ff26f158d997e250b.svg",
@@ -19,18 +19,19 @@
     "static/media/man-user.svg": "/portfolio-yonatan-arm/static/media/man-user.80f5bb20f06798ba43c7c127a420babf.svg",
     "static/media/whatsappLogo.svg": "/portfolio-yonatan-arm/static/media/whatsappLogo.c862ed9727a3af543a5b7fe918924494.svg",
     "static/media/menu.svg": "/portfolio-yonatan-arm/static/media/menu.159fcb08780dd7a33a8baaa7831d5156.svg",
+    "static/media/arrow-up.svg": "/portfolio-yonatan-arm/static/media/arrow-up.6c2a87c38b872e9366c954454093ed48.svg",
     "static/media/down-arrow.svg": "/portfolio-yonatan-arm/static/media/down-arrow.7ecf9107023c38cf12bb5c57b919522d.svg",
     "static/media/laptop.svg": "/portfolio-yonatan-arm/static/media/laptop.c6ea6b5fcbcaa9336ca401b4620df381.svg",
     "index.html": "/portfolio-yonatan-arm/index.html",
     "static/media/arrow-left.svg": "/portfolio-yonatan-arm/static/media/arrow-left.5d61078585351cdf9171fe470728918a.svg",
     "static/media/arrow-right.svg": "/portfolio-yonatan-arm/static/media/arrow-right.3424e17b767154956f9d079a1ac0879b.svg",
     "static/media/x-lg.svg": "/portfolio-yonatan-arm/static/media/x-lg.0fc293a3ecad88d7710017ab8d5ab716.svg",
-    "main.6d555a36.css.map": "/portfolio-yonatan-arm/static/css/main.6d555a36.css.map",
-    "main.f85d424c.js.map": "/portfolio-yonatan-arm/static/js/main.f85d424c.js.map",
+    "main.e34f1fdc.css.map": "/portfolio-yonatan-arm/static/css/main.e34f1fdc.css.map",
+    "main.11754c2b.js.map": "/portfolio-yonatan-arm/static/js/main.11754c2b.js.map",
     "787.e4819a8d.chunk.js.map": "/portfolio-yonatan-arm/static/js/787.e4819a8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d555a36.css",
-    "static/js/main.f85d424c.js"
+    "static/css/main.e34f1fdc.css",
+    "static/js/main.11754c2b.js"
   ]
 }
