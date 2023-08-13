@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-yonatan-arm/static/css/main.e34f1fdc.css",
-    "main.js": "/portfolio-yonatan-arm/static/js/main.11754c2b.js",
+    "main.css": "/portfolio-yonatan-arm/static/css/main.5fefab0c.css",
+    "main.js": "/portfolio-yonatan-arm/static/js/main.166c132f.js",
     "static/js/787.e4819a8d.chunk.js": "/portfolio-yonatan-arm/static/js/787.e4819a8d.chunk.js",
     "static/media/profile-link.jpeg": "/portfolio-yonatan-arm/static/media/profile-link.40fba578db5c616260cb.jpeg",
     "static/media/Exo-VariableFont_wght.ttf": "/portfolio-yonatan-arm/static/media/Exo-VariableFont_wght.610eb1f17b14eb63b0f7.ttf",
@@ -26,12 +26,12 @@
     "static/media/arrow-left.svg": "/portfolio-yonatan-arm/static/media/arrow-left.5d61078585351cdf9171fe470728918a.svg",
     "static/media/arrow-right.svg": "/portfolio-yonatan-arm/static/media/arrow-right.3424e17b767154956f9d079a1ac0879b.svg",
     "static/media/x-lg.svg": "/portfolio-yonatan-arm/static/media/x-lg.0fc293a3ecad88d7710017ab8d5ab716.svg",
-    "main.e34f1fdc.css.map": "/portfolio-yonatan-arm/static/css/main.e34f1fdc.css.map",
-    "main.11754c2b.js.map": "/portfolio-yonatan-arm/static/js/main.11754c2b.js.map",
+    "main.5fefab0c.css.map": "/portfolio-yonatan-arm/static/css/main.5fefab0c.css.map",
+    "main.166c132f.js.map": "/portfolio-yonatan-arm/static/js/main.166c132f.js.map",
     "787.e4819a8d.chunk.js.map": "/portfolio-yonatan-arm/static/js/787.e4819a8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e34f1fdc.css",
-    "static/js/main.11754c2b.js"
+    "static/css/main.5fefab0c.css",
+    "static/js/main.166c132f.js"
   ]
 }
