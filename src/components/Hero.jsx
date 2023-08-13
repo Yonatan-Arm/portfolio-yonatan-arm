@@ -6,7 +6,7 @@ import githubLogo from "../assets/imgs/githubLogo.svg";
 import whatsappLogo from "../assets/imgs/whatsappLogo.svg";
 import profilePic from "../assets/imgs/me-bg.jpg";
 import Zoom from "react-reveal/Zoom";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Hero() {
   const [mouseX, setMouseX] = useState(0);
@@ -56,10 +56,10 @@ export default function Hero() {
             </a>
           </div>
           <span className="btn-about flex align-center justify-center">
-            <AnchorLink href="#about" className="flex align-center justify-center">
+            <Link to="/#about" className="flex align-center justify-center">
               About Me
               <img src={arrowDown} alt="arrow-down" />
-            </AnchorLink>
+            </Link>
           </span>
         </div>
         <div className="area">

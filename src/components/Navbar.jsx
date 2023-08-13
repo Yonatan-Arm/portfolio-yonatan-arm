@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import menu from "../assets/imgs/menu.svg";
 import logo from "../assets/imgs/logo.svg";
 import x from "../assets/imgs/x-lg.svg";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import arrowUpSrc from "../assets/imgs/arrow-up.svg";
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 export default function Navbar() {
   const [isOpenModel, setIsOpenModel] = useState(false);
@@ -13,12 +15,12 @@ export default function Navbar() {
       <img src={logo} alt="logo" onClick={()=>window.scrollTo(0,0)} />
       <div className="nav flex">
         <div className="navigation flex row">
-          <span><AnchorLink href="#home">Home</AnchorLink></span>
-          <span><AnchorLink href="#about">About </AnchorLink></span>
-          <span><AnchorLink href="#skills">Skills</AnchorLink></span>
-          <span><AnchorLink href="#education">Education</AnchorLink></span>
-          <span><AnchorLink href="#projects">Projects</AnchorLink></span>
-          <span><AnchorLink href="#contact">Contact</AnchorLink></span>
+          <span><Link to="/#home">Home</Link></span>
+          <span><Link to="/#about">About </Link></span>
+          <span><Link to="/#skills">Skills</Link></span>
+          <span><Link to="/#education">Education</Link></span>
+          <span><Link to="/#projects">Projects</Link></span>
+          <span><Link to="/#contact">Contact</Link></span>
         </div>
       </div>
       <div className="mobile-nav">
@@ -33,17 +35,17 @@ export default function Navbar() {
         )}
         {isOpenModel && (
           <div className="navigation flex column">
-          <span><AnchorLink href="#home">Home</AnchorLink></span>
-          <span><AnchorLink href="#about">About </AnchorLink></span>
-          <span><AnchorLink href="#skills">Skills</AnchorLink></span>
-          <span><AnchorLink href="#education">Education</AnchorLink></span>
-          <span><AnchorLink href="#projects">Projects</AnchorLink></span>
-          <span><AnchorLink href="#contact">Contact</AnchorLink></span>
+          <span><Link to="/#home">Home</Link></span>
+          <span><Link to="/#about">About </Link></span>
+          <span><Link to="/#skills">Skills</Link></span>
+          <span><Link to="/#education">Education</Link></span>
+          <span><Link to="/#projects">Projects</Link></span>
+          <span><Link to="/#contact">Contact</Link></span>
           </div>
         )}
       </div>
       <button className="top-btn flex justify-center align-center" onClick={()=>window.scrollTo(0,0)}>
-      ^
+      <img src={arrowUpSrc} alt="arrowup" />
       </button>
     </section>
   );

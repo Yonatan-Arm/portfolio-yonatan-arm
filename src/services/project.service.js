@@ -15,6 +15,15 @@ const PROJECTS = [
   },
   {
     _id: "u101",
+    title: "Yakir-Maman",
+    description:"I developed a dynamic website for a hairstylist, beautifully showcasing his work and enabling appointment scheduling",
+    gameUrl: "https://yonatan-arm.github.io/HairSalon-YakirMaman/#/",
+    gameCode: "https://github.com/Yonatan-Arm/HairSalon-YakirMaman",
+    label: "Full Stack",
+    tech: ["React","TypeScript", "Vite","Scss", "Firebase"],
+  },
+  {
+    _id: "u102",
     title: "jobi-app",
     description:
       "Web application to manage my job hunt status and my workflow progress using MERN stack technologies",
@@ -24,7 +33,7 @@ const PROJECTS = [
     tech: ["React", "Redux", "Node.js", "MongoDB"],
   },
   {
-    _id: "u102",
+    _id: "u103",
     title: "chat-app",
     description:
       "Web application to send messages between users, and manage friends list using MERN stack technologies",
@@ -34,7 +43,7 @@ const PROJECTS = [
     tech: ["React", "Node.js", "socket io", "scss", "MongoDB"],
   },
   {
-    _id: "u103",
+    _id: "u104",
     title: "MisterBitcoin React",
     description: "An app that allows transfer of crypto coins to users",
     gameUrl: "https://yonatan-arm.github.io/misterBitcoin",
@@ -44,7 +53,7 @@ const PROJECTS = [
   },
 
   {
-    _id: "u104",
+    _id: "u105",
     title: "weatherApp",
     description:
       "App to get the weather all over the world. you can mange favorite places and change the mode(dark/light).",
@@ -55,7 +64,7 @@ const PROJECTS = [
   },
 
   {
-    _id: "u105",
+    _id: "u106",
     title: "MisterBitcoin-Angular",
     description: "An app that allows transfer of crypto coins to users",
     gameUrl: "https://yonatan-arm.github.io/Mr-BitCoin-Angular",
@@ -64,7 +73,7 @@ const PROJECTS = [
     tech: ["Angular", "TypeScript"],
   },
   {
-    _id: "u106",
+    _id: "u107",
     title: "Minesweeper",
     description:
       'A single-player puzzle the goal is to clear a rectangular board containing hidden "mines" or bombs without detonating any of them',
@@ -74,7 +83,7 @@ const PROJECTS = [
     tech: ["JavaScript", "Html", "Css"],
   },
   {
-    _id: "u107",
+    _id: "u108",
     title: "Pacman",
     description:
       "The player controls a character through an enclosed maze, trying to collect all coins without the enemies killing it",
@@ -84,7 +93,7 @@ const PROJECTS = [
     tech: ["JavaScript", "Html", "Css"],
   },
   {
-    _id: "u108",
+    _id: "u109",
     title: "Meme-Genrartor",
     description:
       "An image maker that lets you add custom resizable text, images, and much more to templates. More features: saving, sharing on Facebook and download",
@@ -94,7 +103,7 @@ const PROJECTS = [
     tech: ["JavaScript", "Html", "Css"],
   },
   {
-    _id: "u109",
+    _id: "u110",
     title: "BallBoard",
     description: "A players that needs to eat all the balls in the board",
     gameUrl: "https://yonatan-arm.github.io/ball-board/",
@@ -103,7 +112,7 @@ const PROJECTS = [
     tech: ["JavaScript", "Html", "Css"],
   },
   {
-    _id: "u110",
+    _id: "u111",
     title: "Touch-Nums",
     description: "the user need to  click the numbers by the order",
     gameUrl: "https://yonatan-arm.github.io/touch-nums/",
@@ -112,7 +121,7 @@ const PROJECTS = [
     tech: ["JavaScript", "Html", "Css"],
   },
   {
-    _id: "u111",
+    _id: "u112",
     title: "Guess-Who",
     description:
       "A guess who tree. Allows the user to add more data to the tree",
@@ -123,7 +132,7 @@ const PROJECTS = [
   },
   
   {
-    _id: "u112",
+    _id: "u113",
     title: "MisterToy",
     description:
       "Toy app that allows the user to add, edit and remove toys. More features: authentication, filter, search and sort",

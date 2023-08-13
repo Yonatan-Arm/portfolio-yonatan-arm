@@ -1,6 +1,8 @@
 import React from "react";
 import laptopImg from '../assets/imgs/laptop.svg'
 import { Fade } from "react-reveal";
+import { CloudinaryContext, Image } from 'cloudinary-react';
+
 
 export default function Skills() {
   const skills = [
@@ -14,6 +16,8 @@ export default function Skills() {
     "MongoDB",
     "Sass",
     "Github",
+    "Firebase",
+    "MySQL",
     "html5",
     "css3",
   ];
@@ -31,10 +35,12 @@ export default function Skills() {
           <div className="tech-section">
             {skills.map((skill) => (
               <div key={skill} className='tech-preview flex column align-center'>
-                <img
-                  src={`https://res.cloudinary.com/yonatan-cajan22/image/upload/v1664890931/Best-portfolio/${skill.toLocaleLowerCase()}.png`}
-                  alt="tech-img"
-                ></img>
+                   <CloudinaryContext cloudName="yonatan-cajan22" style={{height:"100%"}} >
+                  <Image
+                    publicId={"Best-portfolio/"+skill.toLocaleLowerCase()+".png"}
+                    alt="project-img"
+                  ></Image>
+                  </CloudinaryContext>
                 <span>{skill}</span>
               </div>
             ))}

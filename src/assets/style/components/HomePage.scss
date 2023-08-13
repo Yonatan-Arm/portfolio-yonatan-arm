@@ -1,6 +1,7 @@
 .App {
   color: $clr2;
   font-family: exo;;
+  background-color: #E4F0F5;
 }
 
 
@@ -73,15 +74,16 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding-top: 10px;
     font-size: 30px;
-    background: #4e54c8;
     color: rgb(13, 0, 44);
     border-radius: 50%;
-    transition: 1s linear;
+    transition: .5s linear;
     z-index: 1000;
     height: 40px;
     width: 40px;
+    &:hover{
+      filter: drop-shadow(2px 4px 6px black);
+    }
   }
 
   .mobile-nav {

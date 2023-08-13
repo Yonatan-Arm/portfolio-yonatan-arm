@@ -6,6 +6,7 @@ import codeImg from "../assets/imgs/code.svg";
 import eyeImg from "../assets/imgs/eye.svg";
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
+import { CloudinaryContext, Image } from 'cloudinary-react';
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -36,14 +37,13 @@ export default function Projects() {
             <div className="projects-cards flex">
               {projects.map((project) => (
                 <div key={project._id} className="project-preview">
-                  <img
-                    src={
-                      "https://res.cloudinary.com/yonatan-cajan22/image/upload/v1653388477/protfolio/" +
-                      project.title +
-                      ".jpg"
-                    }
+                  <CloudinaryContext cloudName="yonatan-cajan22" style={{height:"100%"}} >
+                  <Image
+                    publicId={"protfolio/" + project.title + ".jpg"}
                     alt="project-img"
-                  />
+                    className="project-preview-img"
+                  ></Image>
+                  </CloudinaryContext>
                   <div className="content">
                     <h2 className="tag">{project.title}</h2>
                     <span className="text-center">{project.label}</span>

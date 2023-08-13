@@ -35,12 +35,12 @@ export default function About() {
           <div className="content flex column">
             <h3> I'm Yonatan</h3>
             <span> Full Stack Developer</span>
-            <p>
-              As a full-stack developer specializing in the MERN stack, i thrive
-              on creating dynamic and user-friendly web applications. With a
-              solid background in web development and a passion for coding, I
-              have honed my skills in the latest technologies and web
-              development best practices.
+            <p className="flex column align-center justify-center">
+            <span>🚀 1.5 years of full-stack development in JavaScript, React, Vue, Node.Js & Express.Js.</span>
+            <span> 🌟 Creator of 20 20 cool Full Stack Projects, adding life to React, Vue & JavaScript.</span>
+            <span> 💡 Infused apps with Vue.js, React, Redux, SCSS, Socket.io & REST API.</span>
+            <span> 🔥 completed mastery of 640-hour Full-Stack Bootcamp, thriving on intricate challenges.</span>
+            <span> 🌐 Let's reshape the digital realm together—where innovation thrives!</span>
             </p>
             <div className="contact-details ">
               <span className="flex row ">

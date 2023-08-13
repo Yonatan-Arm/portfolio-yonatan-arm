@@ -1,5 +1,5 @@
 .projects-section {
-    background: linear-gradient(to bottom, #000031, #00002c);
+    background: linear-gradient(to bottom, #4a00e0, #1F1926);
     min-height: 90vh;
     padding: 2rem 9%;
     left: 0;
@@ -59,24 +59,22 @@
 
         .project-preview {
             flex: 1 1 18rem;
-            max-width: 40%;
+            // max-width: 40%;
             border-radius: 0.5rem;
             box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
             position: relative;
             overflow: hidden;
             height: 17rem;
+            max-width: 400px;
             @include for-mobile-layout {
                 width: 250px;
                 height: 19rem;
             }
-            @include for-normal-layout {
-                max-width: 400px;
-            }
 
-            img {
+            .project-preview-img {
                 height: 100%;
                 width: 100%;
-                object-fit: fill;
+                
             }
 
             .content {
@@ -117,7 +115,7 @@
 
                 .btns {
                     width: 100%;
-                    margin-top: 2rem;
+                    margin-top: 1.5rem;
 
                     a {
                         padding: 1rem;
