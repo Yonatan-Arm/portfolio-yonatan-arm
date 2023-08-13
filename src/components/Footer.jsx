@@ -24,7 +24,7 @@ export default function Footer() {
       </div>
       </div>
       <span>
-       &copy; Copyright Yonatan Arm 2022
+       &copy; Copyright Yonatan Arm 2023
       </span>
       </div>
   );

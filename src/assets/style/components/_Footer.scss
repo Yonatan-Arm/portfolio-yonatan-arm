@@ -12,6 +12,9 @@
         width: rem(35px);
         cursor: pointer;
         filter: grayscale(80%);
+        &:hover{
+                filter: drop-shadow(2px 4px 6px black);
+        }
     }
 }
 span{
