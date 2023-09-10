@@ -141,6 +141,16 @@ const PROJECTS = [
     label: "Full Stack",
     tech: ["Vue", "Vuex", "Node.js", "MongoDB"],
   },
+  {
+    _id: "u114",
+    title: "Tic Tac Toe",
+    description:
+      "the classic game of Tic Tac Toe in Js, Html and Css. this challenge from Frontend Mentor web challenges",
+    gameUrl: "https://yonatan-arm.github.io/tic-tac-toe/",
+    gameCode: "https://github.com/Yonatan-Arm/tic-tac-toe",
+    label: "Frontend",
+    tech: ["Javascript", "Html", "Css"],
+  },
 ];
 
 async function query() {
